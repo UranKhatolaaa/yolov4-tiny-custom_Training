@@ -8,11 +8,11 @@ print(current_dir)
 current_dir = 'data/obj'
 
 # Percentage of images to be used for the test set
-percentage_test = 10;
+percentage_test = 20;
 
 # Create and/or truncate train.txt and test.txt
 file_train = open('data/train.txt', 'w')
-file_test = open('data/test.txt', 'w')
+file_test = open('data/valid.txt', 'w')
 
 # Populate train.txt and test.txt
 counter = 1
